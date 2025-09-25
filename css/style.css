@@ -1,11 +1,9 @@
-/* Reset dasar */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body */
 body {
   font-family: 'Segoe UI', Arial, sans-serif;
   background: #f0f2f5;
@@ -13,7 +11,6 @@ body {
   line-height: 1.6;
 }
 
-/* Navbar (umum) */
 nav {
   background: linear-gradient(90deg, #4e54c8, #8f94fb);
   padding: 15px 30px;
@@ -55,7 +52,6 @@ nav a:hover {
   color: #ffeb3b;
 }
 
-/* Judul umum */
 h1 {
   text-align: center;
   margin: 20px 0 30px;
@@ -65,7 +61,6 @@ h1 {
   text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
 }
 
-/* ================= PROFILE ================= */
 .profile {
   width: 90%;
   max-width: 900px;
@@ -143,7 +138,6 @@ h1 {
   transform: translateY(-3px);
 }
 
-/* ================= HOMETOWN ================= */
 .kota {
   width: 85%;
   max-width: 900px;
@@ -183,7 +177,6 @@ h1 {
   color: #444;
 }
 
-/* ================= FOOD & TOURIST ================= */
 .container {
   width: 90%;
   max-width: 800px;
@@ -228,7 +221,6 @@ h1 {
   color: #555;
 }
 
-/* ================= HOME (index) ================= */
 .home {
   display: flex;
   justify-content: center;
@@ -256,7 +248,7 @@ h1 {
   font-size: 18px;
   font-weight: bold;
   border-radius: 12px;
-  box-shadow: 6px 6px 0px #2c2f75; /* efek 3D kubus */
+  box-shadow: 6px 6px 0px #2c2f75;
   transition: 0.3s ease;
   text-align: center;
   padding: 15px;
